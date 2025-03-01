@@ -36,8 +36,8 @@ onMounted(() => {
             target="_blank"
             href="https://protokoi.com"
             :class="{
-              'font-semibold': headerIsHover,
-            }" class="cursor-pointer"
+              'lg:font-semibold': headerIsHover,
+            }" class="cursor-pointer lg:font-medium font-bold"
           > {{ "protokoi" }} </a>
         </p>
       </div>

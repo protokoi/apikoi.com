@@ -7,9 +7,9 @@ const hoveredResType = ref<'json' | 'xml'>()
   <div class="w-full flex flex-col gap-1 items-end doto font-bold text-xl">
     <div
       v-for="(resType, key) in ['json', 'xml']" :key
-      class="flex flex-row gap-2 items-center justify-end lg:text-4xl"
+      class="flex flex-row gap-2 items-center justify-end lg:text-3xl"
     >
-      <label v-if="resType === res" class="w-12 lg:text-xl text-xs"> > </label>
+      <Icon v-if="resType === res" class="w-12 lg:text-2xl text-lg" name="pixelarticons:play" />
       <p
         class="cursor-pointer text-right duration-300"
         :class="{

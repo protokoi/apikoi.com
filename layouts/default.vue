@@ -8,7 +8,8 @@
   bg-[#eeedec] text-gray-950
   fixed left-0 top-0 w-screen h-screen
   flex justify-center overflow-auto
-  [&::-webkit-scrollbar]:w-1
+  lg:[&::-webkit-scrollbar]:w-3
+  lg[&::-webkit-scrollbar]:w-1
   [&::-webkit-scrollbar-track]:bg-transparent
   [&::-webkit-scrollbar-thumb]:bg-neutral-950
   dark:[&::-webkit-scrollbar-track]:bg-transparent
